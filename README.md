@@ -5,7 +5,7 @@ This project is a geocoding test suite that retrieves location and zip code info
 
 ## Running Instructions
 To retrieve location and zip code information, pass arguments in the following terminal command:
-mvn test -Dtest=GeoCodingTest -Dlocations="<your-first-location-argument> <your-second-location-argument>"
+mvn test -Dtest=GeoCodingTest -Dlocations="{your-first-location-argument} {your-second-location-argument}"
 
 Accepted argument formats:
 "<argument>"
