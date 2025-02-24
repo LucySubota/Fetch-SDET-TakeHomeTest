@@ -81,7 +81,7 @@ public class GeoCodingIntegrationTest {
     @Test
     public void testGetLocationNameResponseReturnsNullForInvalidCityAndState() {
         LOGGER.info("Test 5: getLocationNameResponse() for /direct endpoint returns null for invalid city/state code");
-        LocationNameResponse response = geoCodingTest.getLocationNameResponse("abc");
+        LocationNameResponse response = geoCodingTest.getLocationNameResponse("0");
         assertNull(response);
     }
 
